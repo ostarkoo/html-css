@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgb(27, 31, 255);
+        }
+
+        header {
+            background-color: white;
+            width: 700px;
+            border-radius: 25px;
+            padding: 10px;
+            margin: auto;
+        }
+
+        header > h1 {
+            background-color: lightgrey;
+        }
+
+        main {
+            background-color: white;
+            width: 700px;
+            border-radius: 0px 20px;
+            padding: 10px;
+            margin: 10px auto 10px auto;
+        }
+
+        footer  {
+            background-color: black;
+            color: white;
+            text-align: center;
+            width: 700px;
+            border-radius: 10px;
+            padding: 5px;
+            margin: 10px auto 10px auto;
+        }
+        
+        footer > p {
+            margin: 0px;
+        }
+
+        article > aside {
+            background-color: black;
+            color: white;
+            border-radius: 10px;
+            padding: 5px;
+            margin: auto;
+        }
+
+        section > img {
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+    <h1>Site</h1>
+    </header>
+    <main>
+        <section id="assuntos">
+            <ul>
+                <li>Bola da Copa Jabulani</li>
+                <li>Notícias</li>
+            </ul>
+        </section>
+        <section>
+            <h1>Bola da Copa, Jabulani</h1>
+            <img src="https://www.inovacaotecnologica.com.br/noticias/imagens/010160100610-jabulani.jpg" alt="Bola da Copa de 2010, Jabulani.">
+        </section>
+        <section id="notícias">
+            <article>
+                <h1>Notícia sobre Pastel</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, ipsam rem placeat inventore nisi dolorem a quasi modi sequi culpa assumenda asperiores doloribus iste distinctio laborum aut quibusdam quas dignissimos.</p>
+                <aside>
+                   Artigo escrito por fulano 
+                </aside>
+            </article>
+            <article>
+
+            </article>
+        </section>
+        <section></section>
+    </main>
+    <footer>
+        <p>Desenvolvido pelo Richard</p>
+    </footer>
+</body>
+</html>
